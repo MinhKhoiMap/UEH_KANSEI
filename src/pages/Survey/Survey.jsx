@@ -56,6 +56,14 @@ const Survey = () => {
           </div>
         ))}
       </div>
+      <div className="flex justify-center mb-[156px] mt-[200px]">
+        <button
+          className="rounded-[50px] outline-none shadow-md shadow-black/30 
+          leading-8 bg-[#F26F33] text-white px-20 py-4 text-center hover:opacity-70 transition-opacity duration-500 text-[26px]"
+        >
+          Gửi kết quả
+        </button>
+      </div>
     </div>
   );
 };
